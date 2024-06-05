@@ -622,7 +622,9 @@ hr{
 @media screen and (max-width:450px) {
 
     
-    
+    .brandtag h1,h2{
+        font-size: 6vw;
+    }
    
     .imgcont img{
     
@@ -648,16 +650,16 @@ hr{
      .brandtag button {
         background-color: #69abef;
         border: none;
-        padding: 3px 6px;
+        padding: 6px 8px;
         border-radius: 25px;
-        margin-top: 5px;
-        font-size:1.5vw;
+        margin-top: 8px;
+        font-size:2vw;
         color: white;
         
     }
 
     .greet P{
-        font-size: 2.9vw;
+        font-size: 3.5vw;
     }
 
     .products h1{
@@ -742,7 +744,7 @@ hr{
 
      
      .imgcont{
-        margin:  15px; 
+        margin: 0 10px; 
         height: 100px;
         
         
@@ -799,22 +801,28 @@ hr{
     
     }
 
+    .drop h1{
+        font-size:6vw;
+    }
+
+
+
 
 
     .drop button{
         background-color: #69abef;
         border: none;
-        padding: 3px 6px;
+        padding: 6px 8px;
         border-radius: 25px;
         margin-top: 5px;
-        font-size:1.5vw;
+        font-size:2vw;
         color: white;
         
     }
 
     .featprodimgdiv{
   
-        height: 150px;
+       height: 150px;
        margin-right: 50px;
      }
      
@@ -829,29 +837,40 @@ hr{
 
      }
      .specs{
-        margin-top: 10px;
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
      }
 
      .design{
-        margin: 0 4px;
-        padding: 0px;
+        width: 70%;
+        margin: 10px;
+       
       }
 
       .design h3{
         margin-top: 10px;
-        font-size: 2vw;
+        font-size: 4vw;
       }
       .design p{
-        font-size: 2vw;
+        font-size: 3.5vw;
         padding: 15px;
       }
+
+
 
       .featprod{
         margin-top: 0;
       }
 
+      .featprod h1{
+        font-size: 5vw;
+      }
+
       .featprod p{
-        font-size: 2vw;
+        font-size: 3vw;
         padding: 0;
 
         
@@ -865,60 +884,67 @@ hr{
       .featcont button{
         background-color: #69abef;
         border: none;
-        padding: 3px 6px;
+        padding: 6px 8px;
         border-radius: 25px;
-        margin-top: 5px;
-        font-size:1.5vw;
+        margin-top: 8px;
+        font-size:2vw;
         color: white;
+      }
+
+      .mail h1{
+        font-size: 4vw;
+        border-bottom: 2px solid #69abef;
+        padding-bottom: 2px;
+        margin-bottom: 6px;
       }
 
       .mail input[type=text]{
         padding: 0;
-        font-size:2vw;
+        font-size:3vw;
         margin: 4px;
       }
 
       .mail input[type=email]{
         padding: 0;
-        font-size: 2vw;
+        font-size: 3vw;
         margin: 4px;
       }
       
       .mail textarea{
         margin: 3px;
-        font-size: 2vw;
+        font-size: 3vw;
       }
       .mail input[type=submit]{
-        width: 60px;
-        height: 20px;
+        width: 90px;
+        height: 40px;
         color: white;
         background-color: #69abef;
         border: none;
         border-radius: 25px;
-        font-size: 2vw;
+        font-size: 4vw;
       }
-      .abtcont p{
-        padding: 0;
-        
-        
+     
+      .aboutus h1{
+        font-size: 4vw;
       }
 
       .aboutus p{
-        font-size: 2vw;
+        padding: 0;
+        font-size: 3vw;
       }
 
       .footcont h4{
-        font-size: 2vw;
+        font-size: 3vw;
         margin: 4px;
       }
 
       .footcont ul li a{
-        font-size: 2vw;
+        font-size: 3vw;
         margin: 4px;
       }
 
       .cpyrt p{
-        font-size: 2vw;
+        font-size: 3vw;
         margin-left: 5px;
       }
      
