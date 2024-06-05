@@ -8,7 +8,7 @@ html {
     font-family: "Outfit";
     margin: 0;
     padding: 0;
-   
+    
 }
 
 
@@ -62,9 +62,11 @@ header {
 header ul {
     
     list-style-type: none;
-    margin-right: 20px;
+    
     justify-content: center;
 }
+
+
 
 header li {
 
@@ -108,6 +110,11 @@ header li a {
     left: 70px;
 
 
+}
+
+.hamlogo{
+   display: none;
+    height: 70px;
 }
 
 
@@ -271,7 +278,7 @@ h2 {
 
 .imgcont{
    margin: 0 15px; 
-   height: 350px;
+   height: 250px;
     
 }
 
@@ -477,12 +484,17 @@ form {
 
 }
 
-.featprod img{
+.featprodimgdiv{
   
    height: 300px;
-   border-radius: 25px;
+   
   
    margin-right: 50px;
+}
+
+.featprodimgdiv img{
+    height: 100%;
+    border-radius: 25px;
 }
 
 .featcont{
@@ -497,6 +509,7 @@ form {
 .featcont p{
     margin-top: 7px;
     font-size: 1.7vw;
+
 }
 
 .featcont button{
@@ -606,18 +619,11 @@ hr{
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:450px) {
 
-    .plist{
-        flex-direction: column;
-    }
     
-    .imgcont{
-        margin:  15px; 
-        height: 250px;
-        
-        
-    }
+    
+   
     .imgcont img{
     
    
@@ -634,12 +640,38 @@ hr{
          z-index: 1;
         
      }
-     
+     .content{
+        height: 150px;
+        
+     }
+
+     .brandtag button {
+        background-color: #69abef;
+        border: none;
+        padding: 3px 6px;
+        border-radius: 25px;
+        margin-top: 5px;
+        font-size:1.5vw;
+        color: white;
+        
+    }
+
+    .greet P{
+        font-size: 2.9vw;
+    }
+
+    .products h1{
+        font-size: 4vw;
+        margin-top: 0;
+        padding-bottom: 3px;
+    }
+
+
      .modelcont::before {
          content: " ";
         
-         height: 90%;
-         width: 130%;
+         height: 80%;
+         width: 110%;
          background-color: #69abef;
          border-radius: 50%;
          right: 0;
@@ -656,9 +688,9 @@ hr{
      
      
      .imgdiv{
-       height: 300px;
+       height: 150px;
        position: relative;
-       right: 40px;
+       right: 4px;
        
        
      }
@@ -668,7 +700,228 @@ hr{
          height: 100%;
          width: 100%;
          object-fit: scale-down;
+         
      }
+     .longlogo{
+        width: 100%;
+        object-fit: contain;
+     }
+
+     header{
+       width: 100%;
+     }
+
+     .nav{
+        width:100%;
+     }
+
+     .nav ul {
+        display: none;
+     }
+
+    
+
+     .nav ul li a{
+        font-size: 2vw;
+     }
+
+     
+    
+       
+     .hamlogo{
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 8px;
+        height: 25px;
+        
+        
+       
+        
+     }
+
+     
+     .imgcont{
+        margin:  15px; 
+        height: 100px;
+        
+        
+    }
+    .imgcont img{
+        border-radius:15px;
+    }
+
+
+    .modelimg {
+    
+        height: 100%;
+        width: 100%;
+        object-fit: scale-down;
+    }
+    
+    
+    
+    
+    .model::before {
+        content: " ";
+       
+        position: absolute;
+        z-index: -1;
+        background-color: #69abef;
+        height: 72%;
+        width: 92%;
+        border-radius: 50%;
+        top:45px;
+        left: 30px;
+        opacity: 0.3;
+        box-shadow: #69abef 0px 8px 24px;
+    
+    }
+    
+    .model{
+        position: relative;
+        z-index: 1;
+    }
+    .wide{
+        height:200px;
+    }
+    
+    .modeldiv{
+        height: 200px;
+        position: relative;
+        left: 20px;
+    }
+    
+    .wide img {
+        height: 100%;
+        width: 100%;
+        object-fit: scale-down;
+    
+    }
+
+
+
+    .drop button{
+        background-color: #69abef;
+        border: none;
+        padding: 3px 6px;
+        border-radius: 25px;
+        margin-top: 5px;
+        font-size:1.5vw;
+        color: white;
+        
+    }
+
+    .featprodimgdiv{
+  
+        height: 150px;
+       margin-right: 50px;
+     }
+     
+     .featprodimgdiv img{
+         height: 100%;
+         border-radius: 25px;
+     }
+
+     .spechead h1{
+        font-size: 4vw;
+        padding: 3px;
+
+     }
+     .specs{
+        margin-top: 10px;
+     }
+
+     .design{
+        margin: 0 4px;
+        padding: 0px;
+      }
+
+      .design h3{
+        margin-top: 10px;
+        font-size: 2vw;
+      }
+      .design p{
+        font-size: 2vw;
+        padding: 15px;
+      }
+
+      .featprod{
+        margin-top: 0;
+      }
+
+      .featprod p{
+        font-size: 2vw;
+        padding: 0;
+
+        
+      }
+      .featcont{
+        
+        padding: 0;
+        
+      }
+
+      .featcont button{
+        background-color: #69abef;
+        border: none;
+        padding: 3px 6px;
+        border-radius: 25px;
+        margin-top: 5px;
+        font-size:1.5vw;
+        color: white;
+      }
+
+      .mail input[type=text]{
+        padding: 0;
+        font-size:2vw;
+        margin: 4px;
+      }
+
+      .mail input[type=email]{
+        padding: 0;
+        font-size: 2vw;
+        margin: 4px;
+      }
+      
+      .mail textarea{
+        margin: 3px;
+        font-size: 2vw;
+      }
+      .mail input[type=submit]{
+        width: 60px;
+        height: 20px;
+        color: white;
+        background-color: #69abef;
+        border: none;
+        border-radius: 25px;
+        font-size: 2vw;
+      }
+      .abtcont p{
+        padding: 0;
+        
+        
+      }
+
+      .aboutus p{
+        font-size: 2vw;
+      }
+
+      .footcont h4{
+        font-size: 2vw;
+        margin: 4px;
+      }
+
+      .footcont ul li a{
+        font-size: 2vw;
+        margin: 4px;
+      }
+
+      .cpyrt p{
+        font-size: 2vw;
+        margin-left: 5px;
+      }
+     
 
       
     
